@@ -1,0 +1,59 @@
+body{
+    background-color:rebeccapurple;
+	background-repeat: no-repeat;
+}
+
+table{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 13%;
+    border: solid black 2px;
+    background-color: black;
+}
+input{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 21%;
+    width: 60%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    
+}
+button{
+    font-size: 40px;
+    border-radius: 100px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.egale{
+    background-color: orange;
+    color: white;
+}
+.egale:hover{
+    background-color: white;
+    color: orange;
+}
+.c{
+    text-align: center;
+    
+    
+}
+fieldset{
+    width: 25%;
+    padding: 0%;
+    margin-left: 40%;
+    background-color: black;
+    margin-top: 5%;
+}

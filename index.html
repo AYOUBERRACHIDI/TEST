@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculatrice</title>
+        <link rel="icon" href="calculatrice.png">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <fieldset>
+                <table>
+                        <tr>
+                        
+                        <input type="number" id="result" disabled>
+                        </tr>
+                        
+                        <tr><td><button onclick="clearResult()" value="C" class="c">C</button></td>
+                        
+                        </tr>
+                        <tr>
+                        <td><button onclick="afficher1('1')" value="1">1</button></td>
+                        <td><button onclick="afficher1('2')" value="2">2</button></td>
+                        <td><button onclick="afficher1('3')" value="3">3</button></td>
+                        <td><button onclick="setOperator('/')" value="/">/</button></td>
+                        </tr>
+                        
+                        <tr>
+                        <td><button onclick="afficher1('4')" value="4">4</button></td>
+                        <td><button onclick="afficher1('5')" value="5">5</button></td>
+                        <td><button onclick="afficher1('6')" value="6">6</button></td>
+                        <td><button onclick="setOperator('-')" value="-">-</button></td>
+                        </tr>
+                        
+                        <tr>
+                        <td><button onclick="afficher1('7')" value="7">7</button></td>
+                        <td><button onclick="afficher1('8')" value="8">8</button></td>
+                        <td><button onclick="afficher1('9')" value="9">9</button></td>
+                        <td><button onclick="setOperator('*')" value="*">x</button></td>
+                        </tr>
+                        
+                        <tr>
+                        <td><button onclick="afficher1('0')" value="0">0</button></td>
+                        <td><button onclick="afficher1('.')" value=".">.</button></td>
+                        <td><button onclick="calculateResult('=')" value="=" class="egale">=</button></td>
+                        <td><button onclick="setOperator('+')" value="+">+</button></td>
+                        </tr>
+                </table>
+        </fieldset>
+</body>
+</html>
